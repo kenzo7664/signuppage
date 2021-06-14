@@ -1,0 +1,38 @@
+.btn1{
+    background-color: hsl(248, 32%, 49%);
+    width: 120%;
+    color: white;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    box-shadow: 1px 6px 3px 1px #0000008c;
+}
+
+.btn2{
+    background-color: hsl(154, 59%, 51%) ;
+    width: 91%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    border-radius: 10px;
+    color: white;
+}
+
+@media only screen and (max-width:380px) {
+    .btn1{
+        width: 141%;
+        padding-left: 45%;
+        padding-right: 45%;
+        margin-left: 9%;
+        font-size: 15px;
+    }
+    .btn2{
+        background-color: #38cc8c;
+        width: 94%;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        border-radius: 10px;
+        color: white;      
+    }
+
+}
